@@ -6,18 +6,22 @@ tags: .net core .net setup build server agent pool build windows CI CD DevOps Az
 comments: true
 ---
 
+###My needs?
+Why do I need a build server, that it's not my dev machine?
+Because I might need to check if every time I add a change on my master my project didn't break! It already happened on my daily job (a lot), someone change a ref, then Visual Studio doesn't know where the source lib is, and it doesn't remove it from the debug folder, and it is still building on your machine. Having a build server is great to find those issues.
 
-###Setup your Build Server on Windows
+###Move this to final goal (at the end)
 For this step by step article, I setup one daily Nightly Build task, for a .Net Core MVC Project that I'm working on (part time side project) in order to process a daily base build, from my master branch.
-#So to setup a Build Server what technologies should I use?
-I had at least 2 big options:
-1 - Cruise Control Net (a.k.a. CCNet) that I already use on my daily work;
-2 - Visual Studio Team Services (a.k.a. VSTS from now on), that I usualy use for my personal projects to manage, and to use for my version control (both TFS and git, most of the time git);
 
-The answer was easy: let's go for the one that I know less, and lest's learn it!
+
+#So to setup a Build Server what technologies should I use?
+Should I use Windows or Linux?
+Should I use Jenkins or Travis? Should I go with Cruise Control for .Net (CCnet for now on) or Visual Studio Team Services (VSTS from now on)?
+There are a lot of options now a day... I'm very used to use Windows as a OS, so Windows it is! And for the source control I'm using git on [VSTS](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Visual-Studio) so the why should I add another software in this ecosystem? No need! Let's use VSTS. 
 
 ##Requirements
-Windows machine, to handle the build itself;
+So I grab my Windows server machine, that is my Web Server (IIS), but I don't use it in production, so I just installed on it the VSTS build agent and I'm good to go! At least it was what I just hope it would be.
+###### AQUI!!!!!!!!!!!!!!!!!!!!!!!
 Visual Studio Team Services account.
 
 ![_config.yml]({{ site.baseurl }}/images/VSTS_view_01.png)
