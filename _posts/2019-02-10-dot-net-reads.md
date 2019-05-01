@@ -31,9 +31,10 @@ Recentlly I was able to view a presentation on [Building resilient applications 
 It was the first time I heard bout Polly and I liked it!
 
 ##.NET Foundation
-The community on [.net foundation](https://dotnetfoundation.org/) is behaind those presentations and they are a very known community to follow in Portugal.
+The [.net foundation](https://dotnetfoundation.org/) is an independent organization to promote innovation and to improve the future of .NET ecosystem. If you are a .NET developer and you don't know ahout .NET Foundation or you don't follow it, take a look about it on the official web site.
 
 ###Sources:
 * [.NET Core web page](https://dotnet.microsoft.com/) official web site;
 * [Building resilient applications with Polly.NET](https://www.youtube.com/watch?v=_FglpmSalC8) presentation;
-* [Nuno Caneco](https://medium.com/@nuno.caneco) webpage.
+* [Nuno Caneco](https://medium.com/@nuno.caneco) webpage;
+* [.net foundation](https://dotnetfoundation.org/) official web site.
