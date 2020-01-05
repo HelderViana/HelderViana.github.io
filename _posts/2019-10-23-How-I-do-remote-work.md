@@ -5,22 +5,35 @@ category: blog
 tags: Remote Work RemoteWork 
 comments: true
 ---
-#How I do Remote Work
+# How I do Remote Work
 
-The compay I work for is [Natixis](https://www.natixis.com/), one French investment back, with a brand new IT Office in Porto (Portugal), since 2017. I joined the company late 2017 and it is my first experience in a Nearshore model. Since 2018 all the teams can work remotely for several days in one month. We are not a remote first company, but Natixis has one allow remote work policy for all of it's workers.
+The compay I work for  has a brand new IT Office in Porto (Portugal), since 2017. I joined the company late 2017 and it is my first experience in a Nearshore model. Since 2018 all the teams can work remotely for several days in one month. We are not a remote first company, but this company has one allow remote work policy for all of it's workers.
 
-I started working remotely a few days a month now, I try at least one day a week and
-I usually travel a lot to Paris for work (the HQ of the company I work for is in Paris) and last April I went as usual to Paris and by chance I found one street with my name in Paris! It was very funny to find out a place with my name in there.
-![_config.yml]({{ site.baseurl }}/images/Paris_Rue_du_Helder.PNG)
+I started working remotely a few days a month now, I try at least one day a week and now have setup my home work palce, the goal is to use the work palce as my home work, connecting my company's laptop and my own laptop.
 
-It seems that the origins of this street is not related to the Portuguese name Helder, like mine, it is related to the battle of Fort Helder, which the English army had tried to remove from the French in 1799. Helder is a port in Netherlands, located in North Holland opposite the island of Texel. I found one reference in [French wikipedia](https://fr.wikipedia.org/wiki/Rue_du_Helder) with this information.
-![_config.yml]({{ site.baseurl }}/images/Paris_Rue_du_Helder_map.PNG)
+## Equipment
+My option about the equipment was mostly focus on one monitor with USB Type C, to connect to my work laptop. I choose the Monitor Lenovo ThinkVision P27h-10 IPS 27" QHD, mostly because of the low price (available for my budget) and it has USB-C. Some of the specs are the follwoing:
++ Screen size  27";
++ Aspect Ratio 16:9;
++ Resolution 2560 x 1440 @ 60Hz;
++ IPS;
++ 1 x HDMI;
++ 1 x DisplayPort;
++ 1 x Out DisplayPort;
++ 4 x USB 3.0 Type-A;
++ 1 x USB 3.1 Type-C;
 
-It is a fun fact!
+Besides the monitor, I got one Trust gamming mouse and one PT-PT logitech keyboard.
 
-##Some References:
-[What is Remote Work?](https://dev.to/_justirma/what-is-remote-work-what-you-should-know-about-it-in-2019-1ojj)
-[Working Remotely](https://dev.to/epicosity/working-remotely-when-your-team-is-in-the-office-3b14)
-[Remote Work](https://dev.to/ben/the-best-remote-work-is-delightfully-unglamorous-4h5f)
-[Learn how to Remote](https://medium.com/cesarafonso/learning-how-to-work-from-home-1937a75be4bf)
+
+## Work Place
+About my chair and desk, well, I already have them, I have one desk and one chair from IKEA, some old models, that didn't show up in IKEA's web site. My goal is to replace them, mostly the chair, because the my back.
+
+
+## Benefits of working remotly
+
+
+
+#### stoped here!
+
 
