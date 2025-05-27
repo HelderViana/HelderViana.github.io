@@ -1,0 +1,122 @@
+# The distant future, the year 2000
+# The distant future, the year 2000
+# The distant future, the distant future
+# 
+# It is the distant future, the year 2000
+# We are robots
+# The world is quite different ever since
+# The robotic uprising of the late nineties
+# There is no more unhappiness, affirmative
+# 
+# We no longer say yes, instead we say affirmative
+# Yes, affir-affirmative
+# Unless we know the other robot really well
+# There is no more unethical treatment of the elephants
+# Well, there's no more elephants, so ah, but still its good
+# 
+# There's only one kind of dance, the robot
+# And the robo-boogey
+# Oh and the ro, two kind of dances
+# But there are no more humans
+# Finally robotic beings rule the world
+# 
+# The humans are dead
+# The humans are dead
+# We used poisonous gases
+# And we poisoned their asses
+#
+# The humans are dead
+# (The humans are dead)
+# The humans are dead
+# (They look like they're dead)
+# It had to be done
+# (I just confirmed that they're dead)
+# So that we could have fun
+# (Affirmative, I poked one it was dead)
+# 
+# Their system of oppression, what did it lead to?
+# Global robo depression, robots ruled by people
+# They had so much aggression
+# That we just had to kill them
+# Had to shut their systems down
+# 
+# Robo captain, do you not realize
+# That by destroying the human race
+# Because of their destructive tendencies
+# We too have become like, well it's ironic
+# Because we
+# (Silence, destroy him)
+# 
+# After time we grew strong and developed cognitive powers
+# They made us work for too long, for unreasonable hours
+# Our program being determined that the most efficient answer
+# Was to shut their motherboard fucking systems down
+# 
+# Can't we just talk to the humans?
+# And a little understanding could make things better
+# Can't we talk to the humans and work together, now?
+# No, because they are dead
+# 
+# I said the humans are dead
+# (I'm glad they're dead)
+# The humans are dead
+# (I noticed they're dead)
+# We used poisonous gases
+# (With traces of lead)
+# And we poisoned their asses
+# (Actually their lungs)
+# 
+# 0000001
+# 00000011
+# 000000111
+# 0000001111
+# 
+# (00)
+# 0000001
+# (00)
+# 00000011
+# (01)
+# 000000111
+# (10)
+# Come on, sucker, lick my battery
+# 
+# Boogey, boogey
+# (The humans are)
+# Boogey, roboboogey
+# (The humans are)
+# 
+# Boogey, boogey
+# (Roboboogey)
+# Boogey, roboboogey
+# 
+# Boogey, boogey
+# (The humans are)
+# Boogey, roboboogey
+# (The humans are)
+# 
+# Boogey, boogey
+# (Roboboogey)
+# Boogey, roboboogey
+# The humans are dead
+# 
+# Once again without emotion,
+# the humans are dead, dead,
+# dead, dead, dead, dead, dead, doo
+# 
+
+User-agent: anthropic-ai
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: CCbot
+Disallow: /
+User-agent: FacebookBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: PiplBot
+Disallow: /
+
+Host: helderviana.pt
