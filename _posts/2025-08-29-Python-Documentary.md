@@ -12,6 +12,6 @@ As someone fascinated by the history of computing, yesterday I stumbled upon the
 
 It gave me a fresh and deeper perspective on Python itself. And that felt especially relevant right now, since I’ve been working a lot more with this technology lately — both in professional projects and in personal experiments.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GfH4QL4VqJ0?si=Lhf4k7CtHXwi66Lc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GfH4QL4VqJ0?si=Lhf4k7CtHXwi66Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Thought it was worth sharing here, along with the links.
