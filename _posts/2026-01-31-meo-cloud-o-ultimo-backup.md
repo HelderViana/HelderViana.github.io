@@ -18,7 +18,7 @@ O MEO Cloud era um serviço de armazenamento na nuvem, com planos gratuitos até
 ![_config.yml]({{ site.baseurl }}/images/meocloud_2013_thumb.jpg)
 
 ## Porque está a terminar?
-A decisão surge após a [venda do Datacenter da Altice na Covilhã à Asterion](https://eco.sapo.pt/2025/11/28/asterion-compra-centro-de-dados-da-altice-na-covilha-por-120-milhoes-euros/). O MEO Cloud foi [lançado em 2013](https://kids.pplware.sapo.pt/o-meu-computador/meo-cloud-com-novas-funcionalidades/) , quando o datacenter ainda pertencia à Portugal Telecom. Sempre presumi que a infraestrutura do serviço estava totalmente alojada nesse [datacenter](https://www.datacentermap.com/portugal/covilha/meo-covilha/) . Numa altura em que tanto se fala de soberania digital na Europa (ou a falta dela), é curioso ver um dos maiores ISP portugueses vender o seu principal datacenter, potencialmente para ser adaptado ao uso em IA.
+A decisão surge após a [venda do Datacenter da Altice na Covilhã à Asterion](https://eco.sapo.pt/2025/11/28/asterion-compra-centro-de-dados-da-altice-na-covilha-por-120-milhoes-euros/). O MEO Cloud foi [lançado em 2013](https://kids.pplware.sapo.pt/o-meu-computador/meo-cloud-com-novas-funcionalidades/) , quando o datacenter ainda pertencia à Portugal Telecom. Sempre presumi que a infraestrutura do serviço estava totalmente alojada nesse [datacenter](https://www.datacentermap.com/portugal/covilha/meo-covilha/), esta decisão parece vir a confirmar essa suspeita. Numa altura em que tanto se fala de soberania digital na Europa (ou a falta dela), é curioso ver um dos maiores ISP portugueses vender o seu principal datacenter, potencialmente para ser adaptado ao uso em IA.
 
 ![_config.yml]({{ site.baseurl }}/images/datacenter_altice_covilha.jpeg)
 
