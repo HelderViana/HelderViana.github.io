@@ -2,13 +2,13 @@
 layout: post
 title: Primavera Sound - Live Streaming RTP Play 
 category: blog
-tags: rtpplay rtp primavera sound primaverasound streaming live ffmpeg yt-dlp
+tags: rtpplay rtp primavera sound primaverasound streaming live ffmpeg yt-dlp hack rip h264
 comments: true
 ---
 
 # Primavera Sound 2026: como gravei as emissões da RTP Play
 ## O que é o Primavera Sound?
-O Primavera Sound Porto é a edição portuguesa do festival Primavera Sound, nascido em Barcelona em 2001. Chegou ao Porto em 2012 — o mesmo ano em que também me mudei para cá. Na primeira edição a que fui, vi nomes como Suede, The Flaming Lips, Rufus Wainwright, Wilco e Yo La Tengo. Alguns já conhecia bem, outros acabaram por ganhar outro peso por os ter visto ali. [artigo_Pri...a_original | Word]
+O Primavera Sound Porto é a edição portuguesa do festival Primavera Sound, nascido em Barcelona em 2001. Chegou ao Porto em 2012 — o mesmo ano em que também me mudei para cá. Na primeira edição a que fui, vi nomes como Suede, The Flaming Lips, Rufus Wainwright, Wilco e Yo La Tengo. Alguns já conhecia bem, outros acabaram por ganhar outro peso por os ter visto ali.
 
 ![_config.yml]({{ site.baseurl }}/images/Primavera_Sound_2026.png)
 
@@ -25,7 +25,8 @@ Quem me conhece sabe que isto tem tudo a ver comigo. Ando em festivais desde, pe
 Foi isso que me fez lembrar uma coisa que, durante a adolescência, era absolutamente banal: se passasse alguma coisa importante na televisão, bastava ter uma cassete VHS disponível e deixar o vídeo a gravar. O processo tinha limitações, mas era simples, tangível e compreensível. Hoje, apesar de toda a evolução tecnológica, fazer algo funcionalmente equivalente acabou por exigir uma infraestrutura bastante mais complexa. 
 
 
-![_config.yml]({{ site.baseurl }}/images/vhs_recorder.png)
+![_config.yml]({{ site.baseurl }}/images/Primavera_Sound_2026.png)
+
 
 
 ## Que alternativas existem hoje?
@@ -46,8 +47,8 @@ A mesma lógica se aplicava ao OBS. Sim, podia gravar a sessão local. Mas conti
 4. Captura direta do stream
 Foi aqui que a questão mudou de figura. Em vez de pensar em “gravar o ecrã”, comecei a pensar em capturar o stream diretamente. Essa hipótese parecia de longe a mais interessante, mas também a menos imediata. Nunca tinha feito isso neste contexto, por isso a tarefa deixou de ser “usar uma ferramenta” e passou a ser investigar como o streaming estava montado, onde estavam os bloqueios e o que seria preciso fazer para os contornar tecnicamente. 
 
-Sugestão de imagem: diagrama simples com quatro caixas: Box, Placa de captura, OBS, Captura direta do stream, com a quarta destacada.
-Alt text sugerido: Comparação das alternativas consideradas para gravar as emissões
+
+![_config.yml]({{ site.baseurl }}/images/vhs_recorder.png)
 
 
 # Investigação inicial: yt-dlp, ffmpeg e os primeiros limites
@@ -58,10 +59,10 @@ Os testes iniciais foram esclarecedores precisamente porque falharam. Consegui c
 Ao fim de mais algumas voltas, ficou claro que o streaming da RTP assentava numa playlist master .m3u8, onde o ficheiro principal referencia os vários substreams. Isso por si só já abria uma pista útil, mas rapidamente se tornou óbvio que o acesso estava condicionado por um token de autenticação, e que esse token tinha de ser obtido e renovado de forma compatível com a sessão da RTP Play. Foi aí que o protótipo começou realmente a tomar forma
 
 ```bash
-# Exemplo ilustrativo: inspeção manual de uma playlist HLS
+# inspeção manual de uma playlist HLS
 ffprobe "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8?tk=1781146800_b75db064616288a913dffd3b9a8de40a82a215f8"
 
-# Exemplo ilustrativo: tentativa inicial de captura
+# tentativa inicial de captura
 ffmpeg -i "https://www.rtp.pt/play/direto/rtp1" -c copy output.ts
 
 ```
@@ -105,6 +106,14 @@ Uma vez resolvida a parte da autenticação, consegui capturar as emissões no f
 Capturar e preservar não é o mesmo que “fazer download de um ficheiro estático”. Num cenário como este, em que se está a lidar com uma emissão contínua, autenticada, sujeita a início e fim controlados pela plataforma, adicionou uma camada extra de complexidade. Primeiro garantir que não haveriam falhas/interrupções na captura (computador adormecer, adormecimento da placa de rede, espaço em disco, etc) e no fim, criar uma cópia nos standards atuais (H264) para guardar em Aquivo e ver em multiplas plataformas.
 
 
+```bash
+# no final foi só converter o formato ts em mp4 (H.264)
+ffmpeg -i rtp_palco3_1781456969.ts -c copy rtp_Xinobi_PrimaveraSound_2026.mp4
+
+```
+![_config.yml]({{ site.baseurl }}/images/ffmpeg_convert.png)
+
+
 ## Um detalhe importante: o stream terminava e o processo parava
 Um dos pormenores mais úteis foi perceber que, quando a RTP interrompia a transmissão, o ffmpeg também detetava o fim do stream e terminava a captura. Isto é um detalhe pequeno, mas mudou bastante o desenho da solução, porque me permitiu encaixar o processo em agendamentos sem ter de estar a gerir manualmente o momento de fecho da emissão. 
 
@@ -131,3 +140,6 @@ No fundo, foi esta falta de control, no que vemos e ouvimos, que me levou a faze
 
 ### Links importantes:
 [RTP Play](https://www.rtp.pt/play/) 
+[yt-dlp](https://github.com/yt-dlp/yt-dlp)
+[ffmpeg](https://www.ffmpeg.org/)
+[Primavera Sound Porto](https://www.primaverasound.com/pt/porto) 
