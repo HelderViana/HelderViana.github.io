@@ -25,7 +25,7 @@ Quem me conhece sabe que isto tem tudo a ver comigo. Ando em festivais desde, pe
 Foi isso que me fez lembrar uma coisa que, durante a adolescência, era absolutamente banal: se passasse alguma coisa importante na televisão, bastava ter uma cassete VHS disponível e deixar o vídeo a gravar. O processo tinha limitações, mas era simples, tangível e compreensível. Hoje, apesar de toda a evolução tecnológica, fazer algo funcionalmente equivalente acabou por exigir uma infraestrutura bastante mais complexa. 
 
 
-![_config.yml]({{ site.baseurl }}/images/Primavera_Sound_2026.png)
+![_config.yml]({{ site.baseurl }}/images/rtp_play_landpage.png)
 
 
 
@@ -111,6 +111,7 @@ Capturar e preservar não é o mesmo que “fazer download de um ficheiro estát
 ffmpeg -i rtp_palco3_1781456969.ts -c copy rtp_Xinobi_PrimaveraSound_2026.mp4
 
 ```
+
 ![_config.yml]({{ site.baseurl }}/images/ffmpeg_convert.png)
 
 
@@ -140,6 +141,9 @@ No fundo, foi esta falta de control, no que vemos e ouvimos, que me levou a faze
 
 ### Links importantes:
 [RTP Play](https://www.rtp.pt/play/) 
+
 [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+
 [ffmpeg](https://www.ffmpeg.org/)
+
 [Primavera Sound Porto](https://www.primaverasound.com/pt/porto) 
